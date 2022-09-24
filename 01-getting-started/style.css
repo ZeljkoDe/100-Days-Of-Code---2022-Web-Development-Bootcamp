@@ -1,5 +1,10 @@
-h1 {
-    font-family: sans-serif;
-    text-align: center;
-    color: red;
+:root {
+	--clr-gray: rgb(83, 75, 75);
+}
+
+h1,
+p {
+	font-family: sans-serif;
+	text-align: center;
+	color: var(--clr-gray);
 }
