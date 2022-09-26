@@ -1,0 +1,38 @@
+:root {
+	--clr-dark-liver: rgb(83, 75, 75);
+	--clr-jazzberry-jam: rgb(167, 1, 78);
+	--clr-giants-club: rgb(170, 96, 83);
+	--clr-bone: rgb(233, 215, 207);
+	--ff-primary: 'Fira Sans', sans-serif;
+	--ff-secondary: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: var(--ff-primary);
+	text-align: center;
+	background-color: var(--clr-bone);
+	margin: 50px;
+}
+
+h1,
+p {
+	color: var(--clr-dark-liver);
+}
+
+h1 {
+	color: var(--clr-jazzberry-jam);
+}
+
+a {
+    color: var(--clr-jazzberry-jam);
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol {
+    font-family: var(--ff-secondary);
+    color: var(--clr-dark-liver);
+}

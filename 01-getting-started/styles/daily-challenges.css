@@ -1,0 +1,16 @@
+h1,
+p {
+	color: var(--clr-dark-liver);
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#todays-challenge {
+	font-family: var(--ff-secondary);
+	color: var(--clr-giants-club);
+	font-size: 52px;
+}
