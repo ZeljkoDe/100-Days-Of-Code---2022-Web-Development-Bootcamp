@@ -1,0 +1,27 @@
+h1 {
+	font-size: 48px;
+	color: var(--clr-dark-puce);
+}
+
+a {
+	background-color: var(--clr-jazzberry-jam);
+	color: var(--clr-white);
+	border-radius: 4px;
+	font-size: 24px;
+}
+
+a:hover {
+	background-color: var(--clr-jazzberry-jam-lighter);
+	text-decoration: none;
+}
+
+ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+li {
+	background-color: var(--clr-light-coral);
+	border-radius: 6px;
+	margin: 32px;
+}

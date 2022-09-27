@@ -1,8 +1,12 @@
 :root {
-	--clr-dark-liver: rgb(83, 75, 75);
-	--clr-jazzberry-jam: rgb(167, 1, 78);
-	--clr-giants-club: rgb(170, 96, 83);
-	--clr-bone: rgb(233, 215, 207);
+	--clr-dark-liver: hsl(0, 5%, 31%);
+	--clr-jazzberry-jam: hsl(332, 99%, 33%);
+	--clr-jazzberry-jam-lighter: hsl(332, 93%, 71%);
+	--clr-giants-club: hsl(9, 34%, 50%);
+	--clr-light-coral: hsl(7, 47%, 91%);
+	--clr-bone: hsl(18, 37%, 86%);
+	--clr-dark-puce: hsl(0, 7%, 26%);
+	--clr-white: hsl(0, 0%, 100%);
 	--ff-primary: 'Fira Sans', sans-serif;
 	--ff-secondary: 'Oswald', sans-serif;
 }
