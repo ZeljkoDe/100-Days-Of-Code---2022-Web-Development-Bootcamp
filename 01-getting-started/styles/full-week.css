@@ -1,6 +1,7 @@
 h1 {
 	font-size: 48px;
 	color: var(--clr-dark-puce);
+	margin: 12px 0;
 }
 
 a {
@@ -8,6 +9,8 @@ a {
 	color: var(--clr-white);
 	border-radius: 4px;
 	font-size: 24px;
+	padding: 12px 48px;
+	border: 1px solid var(--clr-jazzberry-jam);
 }
 
 a:hover {
@@ -17,11 +20,32 @@ a:hover {
 
 ol {
 	list-style: none;
-	padding-left: 0;
+	padding: 0;
+	width: 500px;
+	margin: 36px auto;
 }
 
 li {
 	background-color: var(--clr-light-coral);
 	border-radius: 6px;
 	margin: 32px;
+	padding: 16px;
+}
+
+header p {
+	margin-bottom: 36px;
+}
+
+main h2 {
+	color: var(--clr-bulgarian-rose);
+}
+
+main p {
+	font-family: var(--ff-primary);
+	margin: 12px;
+	color: var(--clr-dark-sienna);
+}
+
+.highlight-goal {
+	background-color: var(--clr-giants-club);
 }
