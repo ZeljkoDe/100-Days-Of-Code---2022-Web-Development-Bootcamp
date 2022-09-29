@@ -1,7 +1,7 @@
 h1 {
 	font-size: 48px;
 	color: var(--clr-dark-puce);
-	margin: 12px 0;
+	margin: 0;
 }
 
 a {
@@ -11,6 +11,8 @@ a {
 	font-size: 24px;
 	padding: 12px 48px;
 	border: 1px solid var(--clr-jazzberry-jam);
+	display: inline-block;
+	margin: 0;
 }
 
 a:hover {
@@ -30,10 +32,11 @@ li {
 	border-radius: 6px;
 	margin: 32px;
 	padding: 16px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 header p {
-	margin-bottom: 36px;
+	margin: 12px 0;
 }
 
 main h2 {

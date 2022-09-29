@@ -1,16 +1,39 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+}
+
 h1,
 p {
-	color: var(--clr-dark-liver);
+	color: var(--clr-dark-puce);
+}
+
+h1 span {
+	color: var(--clr-jazzberry-jam);
 }
 
 img {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
+	margin-top: -105px;
+	border: 5px solid var(--clr-dark-puce);
 }
 
 #todays-challenge {
 	font-family: var(--ff-secondary);
-	color: var(--clr-giants-club);
-	font-size: 52px;
+	font-size: 36px;
+	color: var(--clr-bone);
+}
+
+.card {
+	background-color: var(--clr-giants-club);
+	width: 50%;
+	padding: 30px;
+	border: 5px solid var(--clr-dark-puce);
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
