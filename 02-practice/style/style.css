@@ -1,10 +1,20 @@
+:root {
+	--clr-yellow: #ffff00;
+	--clr-yellow-light: #f0f08c;
+	--clr-purple: #8a2be2;
+	--clr-white: #ffffff;
+	--clr-orange: #ffa500;
+	--clr-orange-light: #ffa600b6;
+}	
+
+
 body {
-	font-family: sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 }
 
 h1 {
-	color: #8a2be2;
+	color: var(--clr-purple);
 }
 
 img {
@@ -20,7 +30,7 @@ a {
 h3,
 p,
 ul {
-	color: #ffffff;
+	color: var(--clr-white);
 }
 
 h3 {
@@ -38,14 +48,14 @@ li {
 }
 
 p a {
-	background-color: #f0f08c;
+	background-color: var(--clr-yellow-light);
 	padding: 3px;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
 p a:hover {
-	text-decoration: underline;
+	background-color: var(--clr-orange);
 }
 
 small {
@@ -53,12 +63,12 @@ small {
 }
 
 .highlight {
-	border-left: 3px solid #ffff00;
-	color: #ffff00;
+	border-left: 3px solid var(--clr-yellow);
+	color: var(--clr-yellow);
 }
 
 .card {
-	background-color: #8a2be2;
+	background-color: var(--clr-purple);
 	width: 60%;
 	margin: 0 auto;
 	text-align: left;
@@ -72,9 +82,9 @@ small {
 	padding: 20px;
 	color: black;
 	border-radius: 8px;
-	background-color: #ffa600b6;
+	background-color: var(--clr-orange-light);
 }
 
 .btn:hover {
-	background-color: #ffa500;
+	background-color: var(--clr-orange);
 }
