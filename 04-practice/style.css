@@ -85,3 +85,12 @@
 	border-radius: 6px;
 	object-fit: cover;
 }
+
+#highlights {
+	padding: 24px;
+	background: linear-gradient(
+		to top right,
+		rgb(226, 255, 253),
+		rgb(202, 243, 240)
+	);
+}
